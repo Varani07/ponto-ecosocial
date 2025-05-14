@@ -17,3 +17,12 @@ print(date_tempo)
 
 teste = datetime(1, 1, 1, 0, 0, 0, tzinfo=ZoneInfo("America/Sao_Paulo"))
 print(teste, "aqui")
+
+from decimal import Decimal
+valor_a_receber = Decimal("0")
+valor_por_hora = Decimal("100")
+hora = Decimal("1")
+minuto = Decimal("10")
+segundos = Decimal("30")
+print("-"*40)
+print(valor_por_hora*hora)

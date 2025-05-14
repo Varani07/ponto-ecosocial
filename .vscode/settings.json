@@ -1,0 +1,7 @@
+{
+    "editor.fontSize": 18,
+    "editor.minimap.enabled": false,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.showExecutionMessage": false
+}
