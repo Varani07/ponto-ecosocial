@@ -104,12 +104,12 @@ class Interface():
                         ganhos += (VALOR_POR_HORA / Decimal(3600)) * segundos_para_calcular
 
                     conteudo = Text(f"""
-                        {tempo_corrido}
+                        󱎫 {tempo_corrido}
 
                         [p] pausar/play | [z] zerar | [w] salvar e sair | [q] sair
 
 
-        Ganhos: R${ganhos.quantize(Decimal("0.01"), rounding=ROUND_DOWN)}                   {mensagem_ativa}
+             R${ganhos.quantize(Decimal("0.01"), rounding=ROUND_DOWN)}                   {mensagem_ativa}
                     """)
 
                     live.update(conteudo)
